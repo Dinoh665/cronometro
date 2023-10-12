@@ -49,6 +49,23 @@ h1{
     cursor: pointer;
 }
 
+.button3{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    top: 27.5vh;
+    border-radius: 10px;
+    background: #ff6117;
+    width: 11vw;
+    height: 4vh;    
+    border: none;
+    box-shadow: 1px 6px 10px 10px rgba(218, 1, 1, 0.25);
+    cursor: pointer;
+    display: none;
+}
+
+
 .button1:hover{
     opacity: 0.8;
 }
@@ -63,5 +80,14 @@ h1{
 }
 
 .button2:active{
+    opacity: 0.6;
+}
+
+
+.button3:hover{
+    opacity: 0.8;
+}
+
+.button3:active{
     opacity: 0.6;
 }
