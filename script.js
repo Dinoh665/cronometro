@@ -11,11 +11,16 @@ function start() {
         number++
         h1.innerHTML = number
     }, 1000)
+
+    começar.style.display = "none"
+
+
 }
 
 
 function stop() {
     clearInterval(cron)
+    começar.style.display = "block"
     começar.innerHTML = "Continue"
 }
 
@@ -33,6 +38,9 @@ function restart() {
       number++;
       h1.innerHTML = number;
     }, 1000); // Inicia um novo intervalo
+ 
+    começar.style.display = "none"
+
   }
 
 
